@@ -14,7 +14,6 @@ class Veiculo:
     def getTipo(self):
         return self.__tipo
 
-
 # Classe Carro (herda de Veiculo)
 class Carro(Veiculo):
     def __init__(self, placa, marca, tipo, numero_de_portas):
@@ -24,7 +23,6 @@ class Carro(Veiculo):
     def getPortas(self):
         return self.__numero_de_portas
 
-
 # Classe Caminhao (herda de Veiculo)
 class Caminhao(Veiculo):
     def __init__(self, placa, marca, tipo, capacidade_de_carga):
@@ -33,7 +31,6 @@ class Caminhao(Veiculo):
 
     def getCarga(self):
         return self.__capacidade_de_carga
-
 
 # Classe Motorista
 class Motorista:
@@ -57,8 +54,11 @@ class Motorista:
             return "Nenhum veículo atribuído."
 
     def remMotorista(self):
+        if self.__veiculo:
+            print(f"Excluindo o veículo: {self.__veiculo.getTipo()}, Placa: {self.__veiculo.getPlaca()}")
+            del self.__veiculo  # Excluindo o veículo ao remover o motorista
+        print(f"Excluindo o motorista: {self.__nome}")
         self.__nome = None
-        self.__veiculo = None
 
 if __name__ == "__main__":
     # Criando veículos
@@ -77,3 +77,15 @@ if __name__ == "__main__":
     # Mudando o veículo do motorista
     motorista1.addVeiculo(caminhao1)
     print(f"Veículo alterado para: {motorista1.getVeiculo().getTipo()}")
+
+    # Removendo o motorista e o veículo junto
+    motorista1.remMotorista()
+
+    try:
+        print(veiculo.getPlaca())  # Tentativa de acessar o veículo após exclusão
+    except AttributeError:
+        print("O veículo foi excluído junto com o motorista.")
+        
+    del motorista1
+
+    print(veiculo)

@@ -29,6 +29,8 @@ class Pedido:
     def remPrato(self, prato):
         if prato in self.__pratos:
             self.__pratos.remove(prato)
+        else:
+            print(f"Prato '{prato.getNome()}' não está associado a este pedido.")
 
     def calcularTotal(self):
         total = sum([prato.getPreco() for prato in self.__pratos])
@@ -53,11 +55,15 @@ class Cliente:
     def remPedido(self, pedido):
         if pedido in self.__pedidos:
             self.__pedidos.remove(pedido)
+        else:
+            print(f"Pedido '{pedido.getNumPedido()}' não está associado a este cliente.")
+
 
 if __name__ == "__main__":
     # Criando pratos
     prato1 = Prato("Lasanha", 30.0)
     prato2 = Prato("Pizza", 40.0)
+    prato3 = Prato("Salada", 15.0)  # Prato que não será adicionado
 
     # Criando um pedido e adicionando pratos
     pedido1 = Pedido(1)
@@ -67,9 +73,16 @@ if __name__ == "__main__":
     # Calculando o total do pedido
     print(f"Total do Pedido {pedido1.getNumPedido()}: R${pedido1.calcularTotal()}")
 
+    # Tentando remover um prato que não está no pedido
+    pedido1.remPrato(prato3)
+
     # Criando um cliente e associando o pedido
     cliente1 = Cliente("Yuri e Vitor")
     cliente1.addPedido(pedido1)
+
+    # Tentando remover um pedido que não está associado ao cliente
+    pedido2 = Pedido(2)  # Pedido não adicionado ao cliente
+    cliente1.remPedido(pedido2)
 
     # Exibindo informações do cliente e seus pedidos
     print(f"Cliente: {cliente1.getNome()}")
