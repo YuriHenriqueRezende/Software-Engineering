@@ -1,0 +1,184 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="Página-1" id="wrTioLiWdmvqVtZkFuEh">
+    <mxGraphModel dx="1669" dy="781" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="D68PXXEysc3yYTmyOa07-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="275" y="401" as="targetPoint" />
+            <mxPoint x="275" y="331" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D68PXXEysc3yYTmyOa07-1" value="Cliente" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="250" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D68PXXEysc3yYTmyOa07-2" value="Caixa Eletronico" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="240" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D68PXXEysc3yYTmyOa07-3" value="Banco" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="596" y="240" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D68PXXEysc3yYTmyOa07-4" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="270" y="401" width="10" height="699" as="geometry" />
+        </mxCell>
+        <mxCell id="D68PXXEysc3yYTmyOa07-7" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="450" y="400" width="10" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="D68PXXEysc3yYTmyOa07-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="454.99999999999994" y="395" as="targetPoint" />
+            <mxPoint x="454.99999999999994" y="325" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D68PXXEysc3yYTmyOa07-14" value="1 Inserir Cartão()" style="html=1;verticalAlign=bottom;endArrow=block;endSize=8;curved=0;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=-5;endFill=1;" edge="1" parent="1" target="D68PXXEysc3yYTmyOa07-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="430" as="targetPoint" />
+            <mxPoint x="280" y="430" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D68PXXEysc3yYTmyOa07-15" value="2 Solicitar senha()" style="html=1;verticalAlign=bottom;endArrow=block;dashed=1;endSize=8;curved=0;rounded=0;endFill=1;" edge="1" parent="1" source="D68PXXEysc3yYTmyOa07-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="480" as="targetPoint" />
+            <mxPoint x="350" y="480" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D68PXXEysc3yYTmyOa07-16" value="3 Digitar Senha()" style="html=1;verticalAlign=bottom;endArrow=block;endSize=8;curved=0;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=-5;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="530" as="targetPoint" />
+            <mxPoint x="280" y="530" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D68PXXEysc3yYTmyOa07-17" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="631" y="540" width="10" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="D68PXXEysc3yYTmyOa07-18" value="4 Checa dados()" style="html=1;verticalAlign=bottom;endArrow=block;endSize=8;curved=0;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=-5;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="549.79" as="targetPoint" />
+            <mxPoint x="460" y="549.79" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D68PXXEysc3yYTmyOa07-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=none;endFill=0;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="D68PXXEysc3yYTmyOa07-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="635.79" y="540" as="targetPoint" />
+            <mxPoint x="635.79" y="470" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D68PXXEysc3yYTmyOa07-22" value="alternativa" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="570" width="490" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="D68PXXEysc3yYTmyOa07-24" value="Senha Correta" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="690" y="670" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D68PXXEysc3yYTmyOa07-26" value="6 Retoma opções&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; background-color: rgb(27, 29, 30);&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%222%20Solicitar%20senha()%22%20style%3D%22html%3D1%3BverticalAlign%3Dbottom%3BendArrow%3Dblock%3Bdashed%3D1%3BendSize%3D8%3Bcurved%3D0%3Brounded%3D0%3BendFill%3D1%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%22280%22%20y%3D%22480%22%20as%3D%22targetPoint%22%2F%3E%3CmxPoint%20x%3D%22450%22%20y%3D%22480%22%20as%3D%22sourcePoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;()" style="html=1;verticalAlign=bottom;endArrow=block;dashed=1;endSize=8;curved=0;rounded=0;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="630" as="targetPoint" />
+            <mxPoint x="450" y="630" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D68PXXEysc3yYTmyOa07-27" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: start; background-color: rgb(24, 20, 29);&quot;&gt;5 Retoma confirmação&lt;/span&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; background-color: rgb(27, 29, 30);&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%222%20Solicitar%20senha()%22%20style%3D%22html%3D1%3BverticalAlign%3Dbottom%3BendArrow%3Dblock%3Bdashed%3D1%3BendSize%3D8%3Bcurved%3D0%3Brounded%3D0%3BendFill%3D1%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%22280%22%20y%3D%22480%22%20as%3D%22targetPoint%22%2F%3E%3CmxPoint%20x%3D%22450%22%20y%3D%22480%22%20as%3D%22sourcePoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphMode&lt;/span&gt;()&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;dashed=1;endSize=8;curved=0;rounded=0;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="461" y="610" as="targetPoint" />
+            <mxPoint x="631" y="610" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D68PXXEysc3yYTmyOa07-30" value="7 Sacar()" style="html=1;verticalAlign=bottom;endArrow=block;endSize=8;curved=0;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=-5;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="660" as="targetPoint" />
+            <mxPoint x="280" y="660" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D68PXXEysc3yYTmyOa07-31" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: start; background-color: rgb(24, 20, 29);&quot;&gt;8 Valor do saque()&lt;/span&gt;&lt;span style=&quot;background-color: rgb(27, 29, 30); color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%222%20Solicitar%20senha()%22%20style%3D%22html%3D1%3BverticalAlign%3Dbottom%3BendArrow%3Dblock%3Bdashed%3D1%3BendSize%3D8%3Bcurved%3D0%3Brounded%3D0%3BendFill%3D1%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%22280%22%20y%3D%22480%22%20as%3D%22targetPoint%22%2F%3E%3CmxPoint%20x%3D%22450%22%20y%3D%22480%22%20as%3D%22sourcePoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot%3&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;dashed=1;endSize=8;curved=0;rounded=0;endFill=1;" edge="1" parent="1">
+          <mxGeometry x="0.0017" relative="1" as="geometry">
+            <mxPoint x="280" y="700" as="targetPoint" />
+            <mxPoint x="450" y="700" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D68PXXEysc3yYTmyOa07-32" value="9 Valor do saque()" style="html=1;verticalAlign=bottom;endArrow=block;endSize=8;curved=0;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=-5;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="740" as="targetPoint" />
+            <mxPoint x="280" y="740" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D68PXXEysc3yYTmyOa07-33" value="alternativa" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="780" width="490" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="D68PXXEysc3yYTmyOa07-34" value="Conta Suficiente" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="690" y="850" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D68PXXEysc3yYTmyOa07-36" value="10 Verifica saldo()" style="html=1;verticalAlign=bottom;endArrow=block;endSize=8;curved=0;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=-5;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="631" y="770" as="targetPoint" />
+            <mxPoint x="461" y="770" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D68PXXEysc3yYTmyOa07-37" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: start; background-color: rgb(24, 20, 29);&quot;&gt;12 Libera dinheiro()&lt;/span&gt;&lt;span style=&quot;background-color: rgb(27, 29, 30); color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%222%20Solicitar%20senha()%22%20style%3D%22html%3D1%3BverticalAlign%3Dbottom%3BendArrow%3Dblock%3Bdashed%3D1%3BendSize%3D8%3Bcurved%3D0%3Brounded%3D0%3BendFill%3D1%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%22280%22%20y%3D%22480%22%20as%3D%22targetPoint%22%2F%3E%3CmxPoint%20x%3D%22450%22%20y%3D%22480%22%20as%3D%22sourcePoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;dashed=1;endSize=8;curved=0;rounded=0;endFill=1;" edge="1" parent="1">
+          <mxGeometry x="0.0017" relative="1" as="geometry">
+            <mxPoint x="280" y="839" as="targetPoint" />
+            <mxPoint x="450" y="839" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D68PXXEysc3yYTmyOa07-38" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: start; background-color: rgb(24, 20, 29);&quot;&gt;11 Retoma saldo()&lt;/span&gt;&lt;span style=&quot;background-color: rgb(27, 29, 30); color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%222%20Solicitar%20senha()%22%20style%3D%22html%3D1%3BverticalAlign%3Dbottom%3BendArrow%3Dblock%3Bdashed%3D1%3BendSize%3D8%3Bcurved%3D0%3Brounded%3D0%3BendFill%3D1%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%22280%22%20y%3D%22480%22%20as%3D%22targetPoint%22%2F%3E%3CmxPoint%20x%3D%22450%22%20y%3D%22480%22%20as%3D%22sourcePoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froo&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;dashed=1;endSize=8;curved=0;rounded=0;endFill=1;" edge="1" parent="1">
+          <mxGeometry x="0.0017" relative="1" as="geometry">
+            <mxPoint x="460" y="814" as="targetPoint" />
+            <mxPoint x="630" y="814" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D68PXXEysc3yYTmyOa07-39" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: start; background-color: rgb(24, 20, 29);&quot;&gt;12 Emite nota&lt;/span&gt;&lt;span style=&quot;background-color: rgb(27, 29, 30); color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26lt%3Bdiv%20style%3D%26quot%3Btext-align%3A%20center%3B%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Btext-align%3A%20start%3B%20background-color%3A%20rgb(24%2C%2020%2C%2029)%3B%26quot%3B%26gt%3B12%20Libera%20dinheiro()%26lt%3B%2Fspan%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bbackground-color%3A%20rgb(27%2C%2029%2C%2030)%3B%20color%3A%20rgba(0%2C%200%2C%200%2C%200)%3B%20font-family%3A%20monospace%3B%20font-size%3A%200px%3B%20text-align%3A%20start%3B%26quot%3B%26gt%3B%253CmxGraphModel%253E%253Croot%253E%253CmxCell%2520id%253D%25220%2522%252F%253E%253CmxCell%2520id%253D%25221%2522%2520parent%253D%25220%2522%252F%253E%253CmxCell%2520id%253D%25222%2522%2520value%253D%25222%2520Solicitar%2520senha()%2522%2520style%253D%2522html%253D1%253BverticalAlign%253Dbottom%253BendArrow%253Dblock%253Bdashed%253D1%253BendSize%253D8%253Bcurved%253D0%253Brounded%253D0%253BendFill%253D1%253B%2522%2520edge%253D%25221%2522%2520parent%253D%25221%2522%253E%253CmxGeometry%2520relative%253D%25221%2522%2520as%253D%2522geometry%2522%253E%253CmxPoint%2520x%253D%2522280%2522%2520y%253D%2522480%2522%2520as%253D%2522targetPoint%2522%252F%253E%253CmxPoint%2520x%253D%2522450%2522%2520y%253D%2522480%2522%2520as%253D%2522sourcePoint%2522%252F%253E%253C%252FmxGeometry%253E%253C%252FmxCell%253E%253C%252Froot%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Fdiv%26gt%3B%22%20style%3D%22html%3D1%3BverticalAlign%3Dbottom%3BendArrow%3Dblock%3Bdashed%3D1%3BendSize%3D8%3Bcurved%3D0%3Brounded%3D0%3BendFill%3D1%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%220.0017%22%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%22280%22%20y%3D%22839%22%20as%3D%22targetPoint%22%2F%3E%3CmxPoint%20x%3D%22450%22%20y%3D%22839%22%20as%3D%22sourcePoint%22%2F%3E%3CmxPoint%20as%3D%22offset%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;span style=&quot;text-align: start;&quot;&gt;()&lt;/span&gt;&lt;span style=&quot;background-color: rgb(27, 29, 30); color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%222%20Solicitar%20senha()%22%20style%3D%22html%3D1%3BverticalAlign%3Dbottom%3BendArrow%3Dblock%3Bdashed%3D1%3BendSize%3D8%3Bcurved%3D0%3Brounded%3D0%3BendFill%3D1%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%22280%22%20y%3D%22480%22%20as%3D%22targetPoint%22%2F%3E%3CmxPoint%20x%3D%22450%22%20y%3D%22480%22%20as%3D%22sourcePoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;endSize=8;curved=0;rounded=0;endFill=1;" edge="1" parent="1">
+          <mxGeometry x="0.0017" relative="1" as="geometry">
+            <mxPoint x="280" y="870" as="targetPoint" />
+            <mxPoint x="450" y="870" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D68PXXEysc3yYTmyOa07-42" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: start; background-color: rgb(24, 20, 29);&quot;&gt;12 libera cartao do cliente&lt;/span&gt;&lt;span style=&quot;background-color: rgb(27, 29, 30); color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26lt%3Bdiv%20style%3D%26quot%3Btext-align%3A%20center%3B%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Btext-align%3A%20start%3B%20background-color%3A%20rgb(24%2C%2020%2C%2029)%3B%26quot%3B%26gt%3B12%20Libera%20dinheiro()%26lt%3B%2Fspan%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bbackground-color%3A%20rgb(27%2C%2029%2C%2030)%3B%20color%3A%20rgba(0%2C%200%2C%200%2C%200)%3B%20font-family%3A%20monospace%3B%20font-size%3A%200px%3B%20text-align%3A%20start%3B%26quot%3B%26gt%3B%253CmxGraphModel%253E%253Croot%253E%253CmxCell%2520id%253D%25220%2522%252F%253E%253CmxCell%2520id%253D%25221%2522%2520parent%253D%25220%2522%252F%253E%253CmxCell%2520id%253D%25222%2522%2520value%253D%25222%2520Solicitar%2520senha()%2522%2520style%253D%2522html%253D1%253BverticalAlign%253Dbottom%253BendArrow%253Dblock%253Bdashed%253D1%253BendSize%253D8%253Bcurved%253D0%253Brounded%253D0%253BendFill%253D1%253B%2522%2520edge%253D%25221%2522%2520parent%253D%25221%2522%253E%253CmxGeometry%2520relative%253D%25221%2522%2520as%253D%2522geometry%2522%253E%253CmxPoint%2520x%253D%2522280%2522%2520y%253D%2522480%2522%2520as%253D%2522targetPoint%2522%252F%253E%253CmxPoint%2520x%253D%2522450%2522%2520y%253D%2522480%2522%2520as%253D%2522sourcePoint%2522%252F%253E%253C%252FmxGeometry%253E%253C%252FmxCell%253E%253C%252Froot%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Fdiv%26gt%3B%22%20style%3D%22html%3D1%3BverticalAlign%3Dbottom%3BendArrow%3Dblock%3Bdashed%3D1%3BendSize%3D8%3Bcurved%3D0%3Brounded%3D0%3BendFill%3D1%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%220.0017%22%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%22280%22%20y%3D%22839%22%20as%3D%22targetPoint%22%2F%3E%3CmxPoint%20x%3D%22450%22%20y%3D%22839%22%20as%3D%22sourcePoint%22%2F%3E%3CmxPoint%20as%3D%22offset%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;span style=&quot;text-align: start;&quot;&gt;()&lt;/span&gt;&lt;span style=&quot;background-color: rgb(27, 29, 30); color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%222%20Solicitar%20senha()%22%20style%3D%22html%3D1%3BverticalAlign%3Dbottom%3BendArrow%3Dblock%3Bdashed%3D1%3BendSize%3D8%3Bcurved%3D0%3Brounded%3D0%3BendFill%3D1%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%22280%22%20y%3D%22480%22%20as%3D%22targetPoint%22%2F%3E%3CmxPoint%20x%3D%22450%22%20y%3D%22480%22%20as%3D%22sourcePoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;endSize=8;curved=0;rounded=0;endFill=1;" edge="1" parent="1">
+          <mxGeometry x="0.0017" relative="1" as="geometry">
+            <mxPoint x="280" y="910" as="targetPoint" />
+            <mxPoint x="450" y="910" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D68PXXEysc3yYTmyOa07-43" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="200" y="930" width="490" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="D68PXXEysc3yYTmyOa07-44" value="Conta Insuficiente" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="690" y="970" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D68PXXEysc3yYTmyOa07-45" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: start; background-color: rgb(24, 20, 29);&quot;&gt;12 Retoma saldo insuficiente()&lt;/span&gt;&lt;span style=&quot;background-color: rgb(27, 29, 30); color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%222%20Solicitar%20senha()%22%20style%3D%22html%3D1%3BverticalAlign%3Dbottom%3BendArrow%3Dblock%3Bdashed%3D1%3BendSize%3D8%3Bcurved%3D0%3Brounded%3D0%3BendFill%3D1%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%22280%22%20y%3D%22480%22%20as%3D%22targetPoint%22%2F%3E%3CmxPoint%20x%3D%22450%22%20y%3D%22480%22%20as%3D%22sourcePoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Fot&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;dashed=1;endSize=8;curved=0;rounded=0;endFill=1;" edge="1" parent="1">
+          <mxGeometry x="0.0017" relative="1" as="geometry">
+            <mxPoint x="280" y="990" as="targetPoint" />
+            <mxPoint x="450" y="990" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D68PXXEysc3yYTmyOa07-46" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: start; background-color: rgb(24, 20, 29);&quot;&gt;11 Retoma saldo insuficiente()&lt;/span&gt;&lt;span style=&quot;background-color: rgb(27, 29, 30); color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%222%20Solicitar%20senha()%22%20style%3D%22html%3D1%3BverticalAlign%3Dbottom%3BendArrow%3Dblock%3Bdashed%3D1%3BendSize%3D8%3Bcurved%3D0%3Brounded%3D0%3BendFill%3D1%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%22280%22%20y%3D%22480%22%20as%3D%22targetPoint%22%2F%3E%3CmxPoint%20x%3D%22450%22%20y%3D%22480%22%20as%3D%22sourcePoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Ft&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;dashed=1;endSize=8;curved=0;rounded=0;endFill=1;" edge="1" parent="1">
+          <mxGeometry x="0.0017" relative="1" as="geometry">
+            <mxPoint x="460" y="970" as="targetPoint" />
+            <mxPoint x="630" y="970" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D68PXXEysc3yYTmyOa07-47" value="Senha invalida" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="700" y="1050" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D68PXXEysc3yYTmyOa07-49" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: start; background-color: rgb(24, 20, 29);&quot;&gt;6 retirar o cartao do cliente()&lt;/span&gt;&lt;span style=&quot;background-color: rgb(27, 29, 30); color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%222%20Solicitar%20senha()%22%20style%3D%22html%3D1%3BverticalAlign%3Dbottom%3BendArrow%3Dblock%3Bdashed%3D1%3BendSize%3D8%3Bcurved%3D0%3Brounded%3D0%3BendFill%3D1%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%22280%22%20y%3D%22480%22%20as%3D%22targetPoint%22%2F%3E%3CmxPoint%20x%3D%22450%22%20y%3D%22480%22%20as%3D%22sourcePoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Fot&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;dashed=1;endSize=8;curved=0;rounded=0;endFill=1;" edge="1" parent="1">
+          <mxGeometry x="0.0017" relative="1" as="geometry">
+            <mxPoint x="280" y="1090" as="targetPoint" />
+            <mxPoint x="450" y="1090" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D68PXXEysc3yYTmyOa07-50" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: start; background-color: rgb(24, 20, 29);&quot;&gt;6 Retorna negativo()&lt;/span&gt;&lt;span style=&quot;background-color: rgb(27, 29, 30); color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%222%20Solicitar%20senha()%22%20style%3D%22html%3D1%3BverticalAlign%3Dbottom%3BendArrow%3Dblock%3Bdashed%3D1%3BendSize%3D8%3Bcurved%3D0%3Brounded%3D0%3BendFill%3D1%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%22280%22%20y%3D%22480%22%20as%3D%22targetPoint%22%2F%3E%3CmxPoint%20x%3D%22450%22%20y%3D%22480%22%20as%3D%22sourcePoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Fot&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;dashed=1;endSize=8;curved=0;rounded=0;endFill=1;" edge="1" parent="1">
+          <mxGeometry x="0.0017" relative="1" as="geometry">
+            <mxPoint x="460" y="1070" as="targetPoint" />
+            <mxPoint x="630" y="1070" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
